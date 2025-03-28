@@ -1,0 +1,30 @@
+.div-about{
+    text-align: left;
+}
+.about-text{
+    position: sticky;
+    margin-right: 70vh;
+    height: auto;
+    width: 50%;
+}
+.theme-icon{
+    align-items:center;
+    width: 15px;
+    height:15px;
+    padding: 2px;
+    padding-left: 3px;
+    cursor: pointer;
+    color:#646cff;
+}
+
+.icon{
+    width: 16px;
+    height:16px;
+    align-items: center;
+    will-change: transform;
+    transition: transform 300ms;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+}
