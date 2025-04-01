@@ -1,0 +1,104 @@
+.div-list{
+    padding: 2em 2em 2em 6em;
+    
+}
+.first-list{
+    display: flex; 
+    justify-content:left; 
+    margin: 0;
+    padding-left: 1em;
+    list-style-type: none;
+    overflow: hidden;
+}
+.second-list{
+    display: flex; 
+    justify-content: left; 
+    margin: 0;
+    padding-left: 3em;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.skills-container{
+    display: flex;
+
+}
+.Skill-Language{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    list-style-type: none;
+    flex-direction: row;
+    height: 5em;
+    width:5em;
+    margin: 0.5em;
+    background-color:white;
+    border-radius: 50%;
+
+
+}
+.Skill-db{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    list-style-type: none;
+    flex-direction: row;
+    height: 5em;
+    width:5em;
+    margin: 0.5em;;
+    background-color:white;
+    border-radius: 50%;
+
+
+}
+.Skill-frame{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    list-style-type: none;
+    flex-direction: row;
+    height: 5em;
+    width:5em;
+    margin: 0.7em;
+    background-color:white;
+    border-radius: 50%;
+    
+}
+.Skill-other{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    list-style-type: none;
+    flex-direction: row;
+    height: 5em;
+    width:5em;
+    margin: 0.7em;
+    background-color:white;
+    border-radius: 50%;
+
+}
+
+.img-Language{
+    padding-top: 1.1em;
+    height: 41px;
+    width:41px;   
+
+}
+.img-db{
+    padding-top: 1.1em;
+    height: 41px;
+    width:41px;
+
+}
+.img-frame{
+    height: 41px;
+    width:41px;
+    padding: 1.1em;
+
+}
+.img-other{
+    height: 41px;
+    width:41px;
+    padding: 1.1em;
+
+}
