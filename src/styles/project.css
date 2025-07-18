@@ -1,0 +1,89 @@
+
+.github-tag{
+    height: 20px;
+    width: 20px;
+}
+.github-div{
+    height: 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    
+
+}
+.imageProject{
+    width: 27em;
+    height: 15em;
+    border-radius: 20px;
+    position:sticky;
+    object-fit:contain;
+}
+
+.Icon-tag{
+    height: 1rem;
+    border-radius: 1px;
+    object-fit: cover;
+    background-color: #00000016;
+    will-change: transform;
+    transition: transform 300ms;
+    overflow-wrap: break-word;
+}
+
+.Icon-tag:hover{
+    transform: scale(1.1);
+}
+
+.multitag-div{
+    display: flex;
+    gap: 0.4em;
+    margin-bottom: 1em;
+}
+.tag-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    border-radius: 2em;
+    width: 6.5em;
+    height: 1.5em;
+    gap: 0.4em;
+    background-color:#00000046;
+    overflow-wrap: break-word;
+
+}
+.tagProject-div{
+    text-align: left;
+    margin-left: 10px;
+    
+
+}
+.dataProject{
+    width:27em;
+    height:15em;
+    margin-left:40px;
+    display:flexbox;
+    position: sticky;
+    align-items:left;
+    max-width: 35vw;
+}
+
+.description-p{
+    text-align: left; 
+}
+
+.list-ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.project-li{
+    padding-top: 30px;
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+}
+
+.title{
+    text-align: left;
+}
+
