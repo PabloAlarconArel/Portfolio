@@ -1,4 +1,5 @@
 import {Component} from 'react';
+import { TbUserEdit } from "react-icons/tb";
 import '../styles/header.css';
 
 class About extends Component {
@@ -12,7 +13,7 @@ class About extends Component {
                     <p> Backend developer and Data analytic from Santiago, Chile</p>
                 </span>
                 <br/>
-                <h1 >About Me</h1>
+                <h1> <TbUserEdit /> About Me</h1>
                 <div className='about-text'>
                     <p>This section contains information about.. shfjhdshfj dsjfhshdf dshfhfjhf jhefhsjfhds
                     sfhjdshfd shdghsjh s dhfjfjf sh djfh fjdsh hfdshj  sdk h sdkj hsdkf kshf hfds hffhjks dhçaçhdfhj

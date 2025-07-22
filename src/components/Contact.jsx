@@ -1,12 +1,12 @@
 
-//import GitHublack from '../assets/icons/github-mark.svg';
+import { TbMessage } from "react-icons/tb";
 import '../styles/contact.css';
 
 export default function Contact () { 
     return (
     <>
     <section id='Contact'>
-        <h1>Contact</h1>
+        <h1> <TbMessage /> Contact</h1>
     
     <div className='contact-div' >
         <span className='contact-span'>

@@ -1,4 +1,5 @@
 import { icons } from "./IconsExport";
+import { TbDeviceImacCog } from "react-icons/tb";
 import '../styles/Technology.css'
 
 export const Technology = () => {
@@ -17,7 +18,7 @@ export const Technology = () => {
         );      
         return (
             <>
-            <h1>Skills</h1>
+            <h1><TbDeviceImacCog /> Skills</h1>
             <div className="div-list">
                 <ul className="first-list">
                 {sourceImage(skillsLanguage)}

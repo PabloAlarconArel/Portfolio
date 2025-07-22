@@ -42,21 +42,20 @@ export const SetListImage = ({projectID}) => {
                 <div className='rightArrow' onClick={() => scrollToImage('next')}> &#10093;</div>
                 <div className='container-images'>    
                     <ul ref={listRef}>
-                        console.log(projectID)
                         {data.filter(item => item.project === projectID).map((item) => {
                             return <li key={item.id}>
                                 <img src={item.imgUrl} alt='imgproject' className='imageProject' />
-                                    </li>
+                                   </li>
                         })}
                     </ul>
+                </div>
+            </div>
                 <div className="dots-container">
                 {data.filter(item=> item.project === projectID).map((_, idx) => (
                     <div key={idx}
                         className={`dot-container-item ${idx === currentIndex ? "active" : ""}`}>&#9865;
                     </div>))}
                 </div>                                    
-                </div>
-            </div>
         </div>
         </>
 

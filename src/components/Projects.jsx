@@ -1,5 +1,6 @@
 import imagen1 from '../assets/images/imagen1.png';
 import imagen2 from '../assets/images/imagen2.png'; 
+import { TbFolderCode } from "react-icons/tb";
 import {icons} from '../components/IconsExport';
 import { SetListImage } from './hooks/SetListImage';            
 import '../styles/project.css'
@@ -57,7 +58,7 @@ const Projects=()=> {
     );
         return (
             <section id='Project'>
-                <h1>Projects </h1>
+                <h1><TbFolderCode /> Projects </h1>
                 <div>
                     <ul className='list-ul'>{projectList}</ul>
                 </div>

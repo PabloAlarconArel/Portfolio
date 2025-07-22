@@ -1,3 +1,4 @@
+
 ul,
 li {
   list-style: none;
@@ -8,20 +9,23 @@ li {
   display: inline;
 }
 
-img {
-  margin-top: -16px;
+.imageProject {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Main container */
 
 .main-container {
-  width: 500px;
-  height: 280px;
+  width: 390px;
+  height: 240px;
   margin: 0 auto;
 }
 
 /* Slider container */
 .slider-container {
+
   position: relative;
   height: 100%
 }
@@ -30,6 +34,7 @@ img {
 .dots-container {
   display: flex;
   justify-content: center;
+  
 }
 
 .dot-container-item {
@@ -41,42 +46,48 @@ img {
 
 /* Arrows */
 .leftArrow {
+  opacity: 0.2;
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
-  left: 32px;
+  left: 10px;
   font-size: 50px;
   font-weight: 700;
-  color: #fff;
+  color: #ccc;
   z-index: 1;
   cursor: pointer;
 }
 
 .leftArrow:hover{
-    color: #ccc;
+    transition-duration: 0.3s;
+    opacity: 1;
+    color: #fff;
 }
 
 .rightArrow {
+  opacity: 0.2;
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
-  right: 32px;
+  right: 8px;
   font-size: 50px;
   font-weight: 700;
-  color: #fff;
+  color: #ccc;
   z-index: 1;
   cursor: pointer;
 }
 
 .rightArrow:hover{
-    color: #ccc;
+  transition-duration: 0.3s;
+  opacity: 1;
+    color: #fff;
 }
 
 .container-images {
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  border: 1px solid #eee;
+  border: 1px solid #cccccc96;
   overflow: hidden;
 }
 
