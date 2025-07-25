@@ -1,12 +1,15 @@
-
-ul,
-li {
+.list-ul{
+  display: inline;
+  padding: 0;
+  margin: 0;
+  transition: transform 0.5s ease; 
+  list-style: none;
+}
+.list-item {
+  display: inline;
+  font-size: initial;
   list-style: none;
   white-space: nowrap;
-}
-
-li {
-  display: inline;
 }
 
 .imageProject {

@@ -13,8 +13,8 @@
 
 }
 .imageProject{
-    width: 27em;
-    height: 15em;
+    width: 29em;
+    height: 16em;
     border-radius: 20px;
     position:sticky;
     object-fit:contain;
@@ -78,10 +78,12 @@
 
 .list-ul{
     list-style-type: none;
-    padding-left: 0px;
+    padding: 0px 0px 0px 0px;
+    margin-top: 0px;
+    
 }
 .project-li{
-    padding: 30px 0px 20px 0px;
+    padding: 25px 0px 20px 0px;
     list-style-type: none;
     display: flex;
     align-items: flex-start;
@@ -91,3 +93,10 @@
     text-align: left;
 }
 
+.Project-section{
+    padding: 20px 0px 20px 0px;
+}
+
+.projects-H1{
+    margin-bottom: 0px;
+}

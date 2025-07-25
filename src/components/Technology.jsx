@@ -18,7 +18,7 @@ export const Technology = () => {
         );      
         return (
             <>
-            <h1><TbDeviceImacCog /> Skills</h1>
+            <h1><TbDeviceImacCog />  Skills</h1>
             <div className="div-list">
                 <ul className="first-list">
                 {sourceImage(skillsLanguage)}

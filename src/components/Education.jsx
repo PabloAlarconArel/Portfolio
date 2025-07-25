@@ -4,7 +4,7 @@ import { TbSchool } from "react-icons/tb";
 const Education=()=>{
     return(
         <section id="Education" className='Education-section'>
-            <h1><TbSchool /> Education</h1>
+            <h1><TbSchool />  Education</h1>
             <div >
                 <b>Bachelor Degree in Computer Science and Engineering</b>
                 <p/>

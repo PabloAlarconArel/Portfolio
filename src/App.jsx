@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Technology from './components/Technology';
 import Education from './components/Education';
+import Extra from './components/Extra';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Technology/>
       <Education/>
       <Projects/>
+      <Extra/>
       <Contact/>
     </>
   )
