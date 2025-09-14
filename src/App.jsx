@@ -1,4 +1,5 @@
 import './App.css'
+import { SetTheme } from './components/SetTheme';
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -12,6 +13,8 @@ import Extra from './components/Extra';
 function App() {
   return (
     <>
+    <div className='App'>
+    <SetTheme>
       <Header/>
       <About/>
       <Technology/>
@@ -19,6 +22,8 @@ function App() {
       <Projects/>
       <Extra/>
       <Contact/>
+    </SetTheme>
+    </div>
     </>
   )
 }
