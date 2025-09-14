@@ -1,8 +1,11 @@
 
 import { TbMessage } from "react-icons/tb";
 import '../styles/contact.css';
+import { useSetTheme } from "./SetTheme";
+
 
 export default function Contact () { 
+    const {isDark}=useSetTheme();
     return (
     <>
     <section id='Contact'>
@@ -17,7 +20,7 @@ export default function Contact () {
             <img className='linkedin' src='../icons/linkedin.svg'alt='linkedin'/>
         </a>
         <a className='github-a' href='https://github.com/PabloAlarconArel' target='blank'>
-            <img className='github' src='../icons/github-mark-white.svg' alt='github'/>
+            <img className='github' src= {isDark ?  '../icons/github-mark-white.svg': '../icons/github-mark.svg'} alt='github'/>
         </a>
         </span>
     </div>
