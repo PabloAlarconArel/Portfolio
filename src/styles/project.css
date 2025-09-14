@@ -24,7 +24,7 @@
     height: 1rem;
     border-radius: 1px;
     object-fit: cover;
-    background-color: #00000016;
+    background-color: #1932be16;
     will-change: transform;
     transition: transform 300ms;
     overflow-wrap: break-word;
@@ -48,8 +48,9 @@
     width: 6.5em;
     height: 1.5em;
     gap: 0.4em;
-    background-color:#00000046;
+    background-color:#183cb3c4;
     overflow-wrap: break-word;
+    font-size: 16px;
 
 }
 .tagProject-div{
@@ -74,6 +75,8 @@
     border-width: 0;
     border-style: solid;
     border-color: #e5e7eb;
+    font-size: 16px;
+    
 }
 
 .list-ul{
@@ -99,4 +102,40 @@
 
 .projects-H1{
     margin-bottom: 0px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .project-li {
+    flex-direction: column;  
+    align-items: center;   
+    padding-bottom: 10px;  
+  }
+  .tag-div p{
+    font-size: 9px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .project-li {
+    flex-direction: column;  
+    align-items: center;     
+  }
+
+  .imageProject {
+    width: 100%;  
+    height: auto; 
+  }
+
+  .dataProject {
+    margin-left: 0;  
+    max-width: 100%; 
+    text-align: center; 
+  }
+
+  .tagProject-div {
+    margin-left: 0;  
+    text-align: center;
+  }
 }
