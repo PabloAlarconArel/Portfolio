@@ -1,34 +1,40 @@
-import imagen1 from '../assets/images/imagen1.png';
-import imagen2 from '../assets/images/imagen2.png'; 
 import { TbFolderCode } from "react-icons/tb";
 import {icons} from '../components/IconsExport';
 import { SetListImage } from './hooks/SetListImage';            
 import '../styles/project.css'
 
 const tagsInfo=(names)=>icons.filter(tag=>tag.name===names)
-console.log(tagsInfo('Python'))
 const Projects=()=> {
         const projects=[{
             id:0,
-            title:"project 1",
-            description:"sjkdfhfdjf  dhfjsdfdkj h sdhfh ds dfkjshdfj fdskjfhsj  sdjhfjshfd  djfshfhjds  dskjfhdsjfhds dkshffkdj",
-            github:"youtube.com",
-            image:imagen1,
-            tags:['Python','Javascript']
+            title:"La_Huerta_inventory",
+            description:" Inventory management system used to controle La huerta's store product. It helps store owners and employees track products, manage stock levels, prevent shortages, and show useful sales and inventory graphics.",
+            github:"https://github.com/PabloAlarconArel/La_Huerta_inventory",
+            image:['Home_graficos.png','Inventario.png','Ventas.png'],
+            tags:['React','Express','MongoDB','Node.js']
             },
             {
             id:1,
-            title:"project 2",
-            description:"description 2",
-            github:"www.google.com",
-            image:imagen2,
-            tags:['React']
-            }  
+            title:"UDEM Project Management",
+            description:"University project management system to approve or reject submitted documents.Responsible for contributing to the backend module, designing the data model, deploying on a Linux server, and creating technical documentation. Collaborative project developed with a team of 7 members.",
+            github:"",
+            image:['crearProyecto2.png','EscuelaUdem.png','InicioUdem.png','loginUdem.png'],
+            tags:['Django','Python','SQL Server']
+            }, 
+            {
+            id:2,
+            title:"FuelApp",
+            description:"Fuel App allows clients to order fuel, adding a card number and selecting the desired amount. The app also displays the percentage of fuel delivered.",
+            github:"https://github.com/PabloAlarconArel/FuelApp",
+            image:['fuelApp.png'],
+            tags:['Python']
+            },
+  
         ]
         const projectList = projects.map(project => 
             <li key ={project.id} className='project-li'>
                 <div>
-                <SetListImage projectID = {project.id}/>
+                <SetListImage image = {project.image}/>
                 </div>
                 <div className='dataProject'>
                     <b className='title'>{project.title}</b>
@@ -42,14 +48,15 @@ const Projects=()=> {
                             </div>                     
                         )}
                     </div>
+                    {(project.github.length) > 0 ?
                     <div>
-                    <button onClick={()=>window.open("https://www.github.com","_blank")}>
+                    <button onClick={()=>window.open(project.github,"_blank")}>
                         <div className='github-div'>
-                            <img src='../public/icons/github-mark-white.svg' alt='github-tag' className='github-tag'/>
+                            <img src='/icons/github-mark-white.svg' alt='github-tag' className='github-tag'/>
                             <p>Code</p>
                         </div>
                     </button>                          
-                    </div>
+                    </div>:null}
                 </div>
                 </div>                    
             </li>
@@ -57,8 +64,8 @@ const Projects=()=> {
         
     );
         return (
-            <section id='Project'>
-                <h1><TbFolderCode /> Projects </h1>
+            <section id='Project' className='Project-section'>
+                <h1 className='projects-H1'><TbFolderCode />  Projects </h1>
                 <div>
                     <ul className='list-ul'>{projectList}</ul>
                 </div>
