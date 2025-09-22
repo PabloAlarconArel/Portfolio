@@ -16,7 +16,7 @@ class About extends Component {
                 <section>
                 <h1> <TbUserEdit /> About Me</h1>
                 <div className='about-parraf'>
-                    <p>Hi! I’m a Fullstack Developer with 1 year of experience building web applications using Django, React, and MongoDB.
+                    <p>Hi! I’m a Fullstack Developer with 1 year of experience building web applications using Django and React.
                      I enjoy working across the stack, from designing efficient data models to creating user-friendly interfaces. 
                      Passionate about solving real-world problems through technology, I focus on writing clean, maintainable code and collaborating effectively within teams.</p>
                 </div>
