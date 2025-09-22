@@ -10,15 +10,17 @@ class About extends Component {
                 <span>
                     <img src='/public/icons/principal_icon.svg' alt='Avatar' className='avatar' />
                     <h2>Pablo Alarcón</h2>
-                    <p> Backend developer and Data analytic from Santiago, Chile</p>
+                    <p> Full Stack developer from Santiago, Chile.</p>
                 </span>
                 <br/>
+                <section>
                 <h1> <TbUserEdit /> About Me</h1>
-                <div className='about-text'>
-                    <p>This section contains information about.. shfjhdshfj dsjfhshdf dshfhfjhf jhefhsjfhds
-                    sfhjdshfd shdghsjh s dhfjfjf sh djfh fjdsh hfdshj  sdk h sdkj hsdkf kshf hfds hffhjks dhçaçhdfhj
-                     sajsojwfds dksjfsjf dskjfjd kfdjfskaj kjsdfakjfkj dfksdfkjd  dsjdjfkjdçaj dkjdskjfskdjfsdkdjfds.</p>
+                <div className='about-parraf'>
+                    <p>Hi! I’m a Fullstack Developer with 1 year of experience building web applications using Django, React, and MongoDB.
+                     I enjoy working across the stack, from designing efficient data models to creating user-friendly interfaces. 
+                     Passionate about solving real-world problems through technology, I focus on writing clean, maintainable code and collaborating effectively within teams.</p>
                 </div>
+                </section>
             </div>
         )
     }
