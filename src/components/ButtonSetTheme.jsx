@@ -7,7 +7,7 @@ export const ButtonSetTheme = () => {
     const Moon = '../icons/8726101_moon_icon.svg'
     const Sun = '../icons/8726475_sun_icon.svg'
     const {isDark,setIsDark}= useSetTheme();
-    const [icon,setIcon]=useState(Moon);
+    const [icon,setIcon]=useState(Sun);
 
         useEffect(() => {
             document.documentElement.setAttribute("data-theme", isDark ? "dark" : "light");
