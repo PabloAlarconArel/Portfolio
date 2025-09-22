@@ -6,7 +6,7 @@
     display: flex; 
     justify-content:left; 
     margin: 0;
-    padding-left: 1em;
+    padding-left:4em;
     list-style-type: none;
     overflow: hidden;
 }
@@ -14,8 +14,9 @@
     display: flex; 
     justify-content: left; 
     margin: 0;
-    padding-left: 3em;
+    padding-left: 1em;
     list-style-type: none;
+    gap:1px;
     overflow: hidden;
 }
 
@@ -59,7 +60,7 @@
     flex-direction: row;
     height: 5em;
     width:5em;
-    margin: 0.7em;
+    margin: 0.5em;
     background-color:white;
     border-radius: 50%;
     
@@ -72,7 +73,7 @@
     flex-direction: row;
     height: 5em;
     width:5em;
-    margin: 0.7em;
+    margin: 0.5em;
     background-color:white;
     border-radius: 50%;
 
@@ -100,5 +101,20 @@
     height: 41px;
     width:41px;
     padding: 1.1em;
+
+}
+
+
+@media screen and (max-width: 768px) {
+.div-list{
+    padding:0.1 em;
+    height:auto;
+    width: 100%;
+} 
+
+.div-list img{
+    height:auto;
+    width: 50%;
+} 
 
 }
