@@ -9,10 +9,10 @@ class Header extends Component {
                     <div >
                         <div style={{display:'flex'}}>
                             <div>
-                                <a href="#P">Experience</a>
+                                <a href="#About">About me</a>
                             </div>
                             <div>
-                                <a href='#About'>About</a>
+                                <a href='#Skills'>Skills</a>
                             </div>
                             <div>
                                 <a href="#Project">Project</a>
